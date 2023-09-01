@@ -33,4 +33,5 @@ func summaryRanges(of nums: [Int]) -> [String] {
 
 let array = [2,3,1,6,7,8,11,22,24,23]
 
-print(summaryRanges(of: array))
+print(summaryRanges(of: array)) // ["1 -> 3", "6 -> 8", "11", "22 -> 24"]
+
